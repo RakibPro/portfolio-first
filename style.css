@@ -18,14 +18,19 @@ h1{
 h3{
     color: rgb(51, 51, 51);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
     margin: 20px 0px;
 }
 p{
     font-family: 'Nunito', sans-serif;
+    font-size: 17px;
     font-weight: 500;
     line-height: 30px;
-    color: rgb(51, 51, 51); 
+    color: rgb(105, 97, 97); 
+}
+section{
+    height: 600px;
+    padding-bottom: 100px;
 }
 .welcome{
     display: flex;
@@ -35,8 +40,8 @@ p{
 }
 .half{
     width: 50%;
-    margin-left: 100px;
     margin-top: 30px;
+    margin-left: 100px;
 
 }
 .w-text{
@@ -46,6 +51,7 @@ p{
     width: 90%;
 }
 .button{
+    font-weight: 600;
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -56,4 +62,17 @@ p{
 .button:hover{
     
     background-image: linear-gradient(165deg,#FFC220 ,#26BDE3);
+}
+.dream{
+    display: flex;
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+
+.footer{
+    text-align: center;
+    margin: 30px;
 }
