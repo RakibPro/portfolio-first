@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&family=Pacifico&family=Poppins:wght@400;500;600;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.rakib{
+    color: tomato;
+    font-family: 'Pacifico', cursive;    
+}
+h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 30px 0px;
+    color: rgb(51, 51, 51);
+    
+}
+h3{
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgb(51, 51, 51); 
+}
+.welcome{
+    display: flex;
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+.half{
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+.w-text{
+    margin-top: 60px;
+}
+.logo{
+    width: 90%;
+}
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 35px;
+    border-radius: 5px;
+}
+.button:hover{
+    
+    background-image: linear-gradient(165deg,#FFC220 ,#26BDE3);
+}
